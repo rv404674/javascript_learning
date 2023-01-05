@@ -27,3 +27,7 @@
 
     </body>
 </html>
+
+// NOTE:
+// JS code is written inside <script> tag in html code.
+// A fn can be called an event when the user clicks on the button.
