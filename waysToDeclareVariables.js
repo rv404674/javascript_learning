@@ -29,5 +29,41 @@ var carName;
 bikeName = "gixer";
 let bikeName;
 
+// NOTE: constants
+// you can;t reassign a constant value, but you can change the values of the array.
+// also scope for constnats is same as that of let.
+const cars = ["Saab", "Volvo", "BMW"]
+cars[0]= "rahul";
+cars.push("sachinverma");
+
+// but you cant reassing
+// cars = ["sfs"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

@@ -6,6 +6,8 @@
 // V8 engine is basically embedded in Chrome, written by google, that in C++. V8 is a JIT compiler that compiles js code into native code in runtime.
 
 // document.getElementById("demo").innerHTML = "Hello Javascript";
+// JS is dynamically typed just like python, which means you can add string and numbers together.
+
 
 <html>
     <body>
