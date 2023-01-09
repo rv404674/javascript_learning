@@ -17,3 +17,8 @@ function toCelsius(fahrenheit){
 
 let x = toCelsius(77);
 console.log(x);
+
+
+function calculateSum(x, y){
+    return x+y;
+}

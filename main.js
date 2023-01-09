@@ -8,28 +8,6 @@
 // document.getElementById("demo").innerHTML = "Hello Javascript";
 // JS is dynamically typed just like python, which means you can add string and numbers together.
 
-
-<html>
-    <body>
-        <h2> What can Javascript Do? </h2>
-        <p> Javascript can change HTML attribte values. </p>
-
-        <p> In this case Javascript changes the value of the src (source) of an immage</p>
-        
-        <button
-            onclick="document.getElementById('myImage').src='pic_bulbon.gif'"> Turn on the light 
-            </button>
-
-            <img id="myImage" src="pic_bulboff.gif"
-            style="width:100px"></img>
-
-            <button
-            onclick="document.getElementById('myImage').
-            src='pic_bulboff.gif'">Turn off the light</button>
-
-    </body>
-</html>
-
 // NOTE:
 // JS code is written inside <script> tag in html code.
 // A fn can be called an event when the user clicks on the button.
