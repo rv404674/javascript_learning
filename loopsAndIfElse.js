@@ -38,4 +38,3 @@ switch (day){
     default:
         text = "looking forward to ehe weekend."
 }
-
