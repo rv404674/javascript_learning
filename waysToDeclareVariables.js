@@ -21,9 +21,17 @@ let temp1 = 50;
 temp1 = 100;
 
 // NOTE: Variable hoisting
-// variables defined with var are hoisted on the top and can be initizliaed at any time
-carName = "volvo";
-var carName;
+// NOTE: Hoisting is JS default behaviour of moving all the declarations to the top of the current scope.
+// this will work.
+tempVar = 5;
+var tempVar;
+
+
+// FIXME: this will never work though.
+tempLet = 10;
+var tempLet;
+// let and const are hoisted to the top of the block, but not initialized.
+
 
 // that is not the case with let
 bikeName = "gixer";
