@@ -1,5 +1,5 @@
 for(let i = 0; i<5; i++) {
-    console.log("Current Number" + i);
+    console.log(`Current Number :${i}`);
 }
 
 // NOTE: for in loop
