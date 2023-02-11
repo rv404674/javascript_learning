@@ -22,3 +22,5 @@ console.log(x);
 function calculateSum(x, y){
     return x+y;
 }
+
+// NOTE: ARROW/arrow function
