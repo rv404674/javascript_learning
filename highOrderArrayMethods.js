@@ -28,9 +28,18 @@ bikeNames.forEach(function(bike) {
     console.log(bike.text);
 });
 
+// Using Arrow function
+bikeNames.forEach((bike) =>{
+    console.log(bike.text);
+});
+
 // NOTE: map returns an array
 const bikeTestKeyArray = bikeNames.map(function (bike){
     return bike.text;
+});
+
+const bikeTestKeyArrow = bikeNames.map( (bike) => {
+   return bike.text;
 });
 
 // NOTE: filter applies filter and then returns
